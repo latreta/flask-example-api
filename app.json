@@ -1,0 +1,13 @@
+{
+    "name": "Flask Example API",
+    "description": "Just an barebone API using JWT as token to easy the development of client applications.",
+    "image": "heroku/python",
+    "keywords": ["python", "flask"],
+    "addons": [],
+    "env": {
+        "SECRET_KEY": {
+            "description": "The secret key for something",
+            "generator": "secret"
+        }
+    }
+}
